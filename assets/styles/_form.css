@@ -1,0 +1,34 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing);
+
+}
+label{
+    font-size: 2rem;
+}
+
+.required{
+    color:red;
+}
+
+
+input, select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--grey);
+    border-radius: 5px;
+    width: 100%;
+    border-color: unset;
+}
+
+input[type=submit]{
+    background-color: var(--primary-color);
+    width: 5rem;
+    padding: 10px;
+    color: var(--primary-color-inverse);
+    border-radius: 20px;
+    font-weight: bold;
+}
